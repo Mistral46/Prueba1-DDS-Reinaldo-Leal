@@ -6,7 +6,9 @@ for (let i=0;i<ds.length-1;i++){
     var mlluvia = Number(prompt("Ingrese dato publiometrico dia"+ds[i]));//solicitar datos por pantalla
         mlluvia.push(ds[semana],[semana],)
         semana++
-        if (semana = 7)
+        if (semana = 4)  {
+            break;
+        }
 }
 
 console.log("promedio semanal ->",mlluvia/7)
